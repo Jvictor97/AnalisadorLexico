@@ -66,7 +66,6 @@ E0:
                 }
                 else 
                     if(e[p] == '%'){
-                        //p++; // VERIFICAR
                         goto E5;
                     }
                     else 
@@ -103,7 +102,6 @@ E3:
         goto E4;
     }
     else {
-        p++;
         S8();
         goto E0;
     }
